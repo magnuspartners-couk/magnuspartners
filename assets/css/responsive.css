@@ -28,6 +28,11 @@
 	}
 
 }
+@media(max-width:1440px) {
+    .ftr-lnk li a{
+        font-size: 14px;
+    }
+}
 
 @media(max-width:1299px) {
 	.main-header .custom-navbar .navbar-brand img {
@@ -45,6 +50,31 @@
 	.main-header .custom-navbar .nav-item .nav-link {
         font-size: 15px;
     }
+    .contact-card {
+    padding: 30px 5px;
+}
+.ftr-lnk li a {
+    font-size: 12px;
+}
+
+.contact-card .contact-card-icon span {
+           height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 20px;
+}
+.contact-card-content {
+    margin-left: 5px;
+}
+.ftr-lnk-main {
+    padding-left: 40px;
+}
+.contact-card-content a {
+    font-size: 14px;
+}
+.ftr-media a{
+        margin-right: 0px;
+}
 
 }
 
@@ -311,6 +341,10 @@
 	.vision-img::after, .vision-img::before{
 	    display: none;
 	}
+	   .contact-card {
+    height: auto;
+}
+
 
 }
 
